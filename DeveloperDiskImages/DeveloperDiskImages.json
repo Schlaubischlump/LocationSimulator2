@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "platforms": {
+    "ios": {
+      "legacyVersions": {
+        "10.0": {
+          "imageURLs": [
+            "https://github.com/xushuduo/Xcode-iOS-Developer-Disk-Image/raw/master/Developer%20Disk%20Image/10.0%20(14A345)/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://github.com/xushuduo/Xcode-iOS-Developer-Disk-Image/raw/master/Developer%20Disk%20Image/10.0%20(14A345)/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "10.1": {
+          "imageURLs": [
+            "https://github.com/xushuduo/Xcode-iOS-Developer-Disk-Image/raw/master/Developer%20Disk%20Image/10.1%20(14B72)/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://github.com/xushuduo/Xcode-iOS-Developer-Disk-Image/raw/master/Developer%20Disk%20Image/10.1%20(14B72)/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "10.2": {
+          "imageURLs": [
+            "https://github.com/xushuduo/Xcode-iOS-Developer-Disk-Image/raw/master/Developer%20Disk%20Image/10.2%20(14C5062c)/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://github.com/xushuduo/Xcode-iOS-Developer-Disk-Image/raw/master/Developer%20Disk%20Image/10.2%20(14C5062c)/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "10.3": {
+          "imageURLs": [
+            "https://github.com/xushuduo/Xcode-iOS-Developer-Disk-Image/raw/master/Developer%20Disk%20Image/10.3%20(14E269)/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://github.com/xushuduo/Xcode-iOS-Developer-Disk-Image/raw/master/Developer%20Disk%20Image/10.3%20(14E269)/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "11.0": {
+          "imageURLs": [
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/11.0/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/11.0/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "11.1": {
+          "imageURLs": [
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/11.1/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/11.1/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "11.2": {
+          "imageURLs": [
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/11.2/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/11.2/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "11.3": {
+          "imageURLs": [
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/11.3/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/11.3/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "11.4": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/11.4/DeveloperDiskImage.dmg",
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/11.4/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/11.4/DeveloperDiskImage.dmg.signature",
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/11.4/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "12.0": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/12.0/DeveloperDiskImage.dmg",
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/12.0/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/12.0/DeveloperDiskImage.dmg.signature",
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/12.0/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "12.1": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/12.1/DeveloperDiskImage.dmg",
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/12.1/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/12.1/DeveloperDiskImage.dmg.signature",
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/12.1/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "12.2": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/12.2/DeveloperDiskImage.dmg",
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/12.2/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/12.2/DeveloperDiskImage.dmg.signature",
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/12.2/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "12.3": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/12.3/DeveloperDiskImage.dmg",
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/12.3/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/12.3/DeveloperDiskImage.dmg.signature",
+            "https://github.com/luannguyenkhoa/LocationSimulator/raw/master/LocationSimulator/12.3/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "12.4": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/12.4/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/12/12.4/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/12.4/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/12/12.4/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "12.5": {
+          "imageURLs": [
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/12/12.4/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/12/12.4/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "13.0": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.0/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.0/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.0/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.0/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "13.1": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.1/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.1/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.1/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.1/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "13.2": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.2/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.2/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.2/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.2/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "13.3": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.3/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.3/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.3/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.3/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "13.4": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.4/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.4/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.4/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.4/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "13.5": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.5/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.5/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.5/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.5/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "13.6": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.6/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.6/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.6/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.6/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "13.7": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.7/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.7/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/13.7/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/13/13.7/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "14.0": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.0/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.0/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.0/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.0/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "14.1": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.1/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.1/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.1/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.1/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "14.2": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.2/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.2/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.2/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.2/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "14.3": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.3/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.3/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.3/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.3/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "14.4": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.4/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.4/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.4/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.4/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "14.5": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.5/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.5/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.5/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.5/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "14.6": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.6/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.5/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.6/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.5/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "14.7": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.7/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.5/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.7/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.5/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "14.8": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.8/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.5/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/14.8/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/14/14.5/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "15.0": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.0/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.0/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.0/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.0/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "15.1": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.1/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.0/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.1/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.0/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "15.2": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.2/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.2/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.2/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.2/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "15.3": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.3/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.2/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.3/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.2/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "15.4": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.4/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.4/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.4/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.4/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "15.5": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.5/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.5/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.5/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.5/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "15.6": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.6/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.6/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.6/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.6/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "15.7": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.7/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.7/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.7/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.7/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "15.8": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.8/DeveloperDiskImage.dmg",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.5/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/15.8/DeveloperDiskImage.dmg.signature",
+            "https://github.com/pdso/DeveloperDiskImage/raw/master/15/15.5/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "16.0": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.0/DeveloperDiskImage.dmg",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.0/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.0/DeveloperDiskImage.dmg.signature",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.0/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "16.1": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.1/DeveloperDiskImage.dmg",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.1/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.1/DeveloperDiskImage.dmg.signature",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.1/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "16.2": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.2/DeveloperDiskImage.dmg",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.2/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.2/DeveloperDiskImage.dmg.signature",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.2/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "16.3": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.3/DeveloperDiskImage.dmg",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.3/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.3/DeveloperDiskImage.dmg.signature",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.3/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "16.4": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.4/DeveloperDiskImage.dmg",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.4/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.4/DeveloperDiskImage.dmg.signature",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.4/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "16.5": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.5/DeveloperDiskImage.dmg",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.5/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.5/DeveloperDiskImage.dmg.signature",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.5/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "16.6": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.6/DeveloperDiskImage.dmg",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.5/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.6/DeveloperDiskImage.dmg.signature",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.5/DeveloperDiskImage.dmg.signature"
+          ]
+        },
+        "16.7": {
+          "imageURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.7/DeveloperDiskImage.dmg",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.5/DeveloperDiskImage.dmg"
+          ],
+          "signatureURLs": [
+            "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/DeveloperDiskImages/16.7/DeveloperDiskImage.dmg.signature",
+            "https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images/raw/master/Developer%20Disk%20Image/16.5/DeveloperDiskImage.dmg.signature"
+          ]
+        }
+      },
+      "personalized": {
+        "imageURLs": [
+          "https://github.com/doronz88/DeveloperDiskImage/raw/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/Image.dmg"
+        ],
+        "trustCacheURLs": [
+          "https://github.com/doronz88/DeveloperDiskImage/raw/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/Image.dmg.trustcache"
+        ],
+        "buildManifestURLs": [
+          "https://github.com/doronz88/DeveloperDiskImage/raw/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/BuildManifest.plist"
+        ]
+      }
+    },
+    "watchos": {
+      "legacyVersions": {}
+    },
+    "tvos": {
+      "legacyVersions": {}
+    },
+    "visionos": {
+      "legacyVersions": {}
+    }
+  }
+}
