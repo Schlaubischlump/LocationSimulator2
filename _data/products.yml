@@ -1,0 +1,22 @@
+site:
+  repository_url: https://github.com/Schlaubischlump/LocationSimulator2
+  issues_url: https://github.com/Schlaubischlump/LocationSimulator2/issues/new/choose
+  legacy_url: https://schlaubischlump.github.io/LocationSimulator/
+
+locationsimulator:
+  name: LocationSimulator
+  eyebrow: The controller
+  description: Plan routes, choose precise coordinates, and control simulated movement from a focused map interface.
+  app_store_url: https://apps.apple.com/app/id6800851055
+  app_store_id: "6800851055"
+  changelog_label: LocationSimulator
+
+locationspoofer:
+  name: LocationSpoofer
+  eyebrow: The macOS companion
+  description: Connects LocationSimulator to physical Apple devices and Xcode Simulator securely from your Mac.
+  repository_url: https://github.com/Schlaubischlump/LocationSpoofer-App
+  download_url: https://github.com/Schlaubischlump/LocationSpoofer-App/releases/latest/download/LocationSpoofer.zip
+  releases_url: https://github.com/Schlaubischlump/LocationSpoofer-App/releases
+  changelog_label: LocationSpoofer
+

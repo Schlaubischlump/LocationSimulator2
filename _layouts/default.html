@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#07111f">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="LocationSimulator2 home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>LocationSimulator<span class="brand-two">2</span></span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a {% if page.nav == 'home' %}aria-current="page"{% endif %} href="{{ '/' | relative_url }}">Overview</a>
+        <a {% if page.nav == 'downloads' %}aria-current="page"{% endif %} href="{{ '/downloads/' | relative_url }}">Downloads</a>
+        <a {% if page.nav == 'changelog' %}aria-current="page"{% endif %} href="{{ '/changelog/' | relative_url }}">Changelog</a>
+        <a href="{{ site.data.products.site.legacy_url }}">Legacy <span aria-hidden="true">↗</span></a>
+        <a class="nav-issue" href="{{ site.data.products.site.issues_url }}">Report an issue</a>
+      </nav>
+    </header>
+
+    <main id="main">{{ content }}</main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand footer-brand" href="{{ '/' | relative_url }}">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span>LocationSimulator<span class="brand-two">2</span></span>
+        </a>
+        <p>Built for testing location-aware experiences on Apple platforms.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="{{ site.data.products.site.repository_url }}">GitHub</a>
+        <a href="{{ site.data.products.site.issues_url }}">Issues</a>
+        <a href="{{ site.data.products.site.legacy_url }}">Legacy website</a>
+      </nav>
+    </footer>
+  </body>
+</html>
+

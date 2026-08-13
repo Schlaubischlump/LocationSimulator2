@@ -1,0 +1,20 @@
+title: LocationSimulator2
+description: Simulate locations on Apple devices with a modern controller and a secure macOS companion.
+url: https://schlaubischlump.github.io
+baseurl: /LocationSimulator2
+
+markdown: kramdown
+permalink: pretty
+
+collections:
+  releases:
+    output: false
+
+exclude:
+  - compose.yaml
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - script
+  - vendor
+

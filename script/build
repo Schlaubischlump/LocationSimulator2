@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+cd "$(dirname "$0")/.."
+docker compose run --rm site sh -c \
+  "bundle config set path /bundle && bundle install && JEKYLL_ENV=production bundle exec jekyll build"
+
