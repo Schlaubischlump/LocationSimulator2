@@ -37,21 +37,23 @@ description: Spoof locations on physical iPhones and iPads or devices running in
   <span>Physical iPhone &amp; iPad</span><i></i><span>iOS Simulator</span><i></i><span>Routes &amp; GPX</span><i></i><span>No jailbreak</span>
 </section>
 
-<section class="section shell pair-section">
-  <div class="pair-heading">
-    <p class="eyebrow">Two apps, one workflow</p>
-    <h2>Choose it. Spoof it.</h2>
-  </div>
-  <div class="pair-flow">
-    <article>
-      <img src="{{ '/assets/images/app-icon.png' | relative_url }}" alt="">
-      <div><h3>LocationSimulator</h3><p>Choose a device, location, or route.</p></div>
-    </article>
-    <span class="flow-arrow" aria-hidden="true">→</span>
-    <article>
-      <img class="spoofer-icon-cropped" src="{{ '/assets/images/location-spoofer-icon.png' | relative_url }}" alt="">
-      <div><h3>LocationSpoofer</h3><p>Applies it while both apps are running.</p></div>
-    </article>
+<section class="section pair-section-band">
+  <div class="shell pair-section">
+    <div class="pair-heading">
+      <p class="eyebrow">Two apps, one workflow</p>
+      <h2>Choose it. Spoof it.</h2>
+    </div>
+    <div class="pair-flow">
+      <article>
+        <img src="{{ '/assets/images/app-icon.png' | relative_url }}" alt="">
+        <div><h3>LocationSimulator</h3><p>Choose a device, location, or route.</p></div>
+      </article>
+      <span class="flow-arrow" aria-hidden="true">→</span>
+      <article>
+        <img class="spoofer-icon-cropped" src="{{ '/assets/images/location-spoofer-icon.png' | relative_url }}" alt="">
+        <div><h3>LocationSpoofer</h3><p>Applies it while both apps are running.</p></div>
+      </article>
+    </div>
   </div>
 </section>
 
@@ -92,25 +94,6 @@ description: Spoof locations on physical iPhones and iPads or devices running in
   </div>
 </section>
 
-<section class="section shell feature-list-section">
-  <div class="section-heading compact">
-    <p class="eyebrow">Features</p>
-    <h2>What it handles.</h2>
-  </div>
-  <div class="feature-list">
-    <article><span aria-hidden="true">⌁</span><div><h3>Physical devices</h3><p>Spoof an iPhone or iPad without a jailbreak or an app installed on the device.</p></div></article>
-    <article><span aria-hidden="true">▣</span><div><h3>iOS Simulator</h3><p>Use the same map and movement controls with devices running in iOS Simulator.</p></div></article>
-    <article><span aria-hidden="true">↯</span><div><h3>Developer images</h3><p>Automatically look for and download the DeveloperDiskImage files required by the connected iOS version.</p></div></article>
-    <article><span aria-hidden="true">⌘</span><div><h3>Network devices</h3><p>Pair a physical device over USB first, then reconnect to it over Wi-Fi.</p></div></article>
-    <article><span aria-hidden="true">⌖</span><div><h3>Set a location</h3><p>Long-click anywhere on the map to make the device report that coordinate.</p></div></article>
-    <article><span aria-hidden="true">⌕</span><div><h3>Location search</h3><p>Find a place or address and move the map directly to it.</p></div></article>
-    <article><span aria-hidden="true">↝</span><div><h3>Route navigation</h3><p>Calculate a route from the current location and simulate traveling along it.</p></div></article>
-    <article><span aria-hidden="true">◴</span><div><h3>Movement speeds</h3><p>Use custom speeds or switch between the predefined Walk, Cycle, and Drive modes.</p></div></article>
-    <article><span aria-hidden="true">↑</span><div><h3>Keyboard control</h3><p>Move and change direction with the arrow keys while testing.</p></div></article>
-    <article><span aria-hidden="true">◐</span><div><h3>Dark mode</h3><p>Follow the current macOS appearance or choose the app appearance yourself.</p></div></article>
-  </div>
-</section>
-
 <section class="section automation-section">
   <div class="shell automation-grid">
     <div class="automation-copy">
@@ -145,6 +128,25 @@ description: Spoof locations on physical iPhones and iPads or devices running in
     <span class="code-keyword">end tell</span>
 <span class="code-keyword">end tell</span></code></pre>
     </div>
+  </div>
+</section>
+
+<section class="section shell feature-list-section">
+  <div class="section-heading compact">
+    <p class="eyebrow">Features</p>
+    <h2>What it handles.</h2>
+  </div>
+  <div class="feature-list">
+    <article><span aria-hidden="true">⌁</span><div><h3>Physical devices</h3><p>Spoof an iPhone or iPad without a jailbreak or an app installed on the device.</p></div></article>
+    <article><span aria-hidden="true">▣</span><div><h3>iOS Simulator</h3><p>Use the same map and movement controls with devices running in iOS Simulator.</p></div></article>
+    <article><span aria-hidden="true">↯</span><div><h3>Developer images</h3><p>Automatically look for and download the DeveloperDiskImage files required by the connected iOS version.</p></div></article>
+    <article><span aria-hidden="true">⌘</span><div><h3>Network devices</h3><p>Pair a physical device over USB first, then reconnect to it over Wi-Fi.</p></div></article>
+    <article><span aria-hidden="true">⌖</span><div><h3>Set a location</h3><p>Long-click anywhere on the map to make the device report that coordinate.</p></div></article>
+    <article><span aria-hidden="true">⌕</span><div><h3>Location search</h3><p>Find a place or address and move the map directly to it.</p></div></article>
+    <article><span aria-hidden="true">↝</span><div><h3>Route navigation</h3><p>Calculate a route from the current location and simulate traveling along it.</p></div></article>
+    <article><span aria-hidden="true">◴</span><div><h3>Movement speeds</h3><p>Use custom speeds or switch between the predefined Walk, Cycle, and Drive modes.</p></div></article>
+    <article><span aria-hidden="true">↑</span><div><h3>Keyboard control</h3><p>Move and change direction with the arrow keys while testing.</p></div></article>
+    <article><span aria-hidden="true">◐</span><div><h3>Dark mode</h3><p>Follow the current macOS appearance or choose the app appearance yourself.</p></div></article>
   </div>
 </section>
 
