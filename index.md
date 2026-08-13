@@ -87,7 +87,7 @@ description: Spoof locations on physical iPhones and iPads or devices running in
     <article><span aria-hidden="true">⌁</span><div><h3>Physical devices</h3><p>Spoof an iPhone or iPad without a jailbreak or an app installed on the device.</p></div></article>
     <article><span aria-hidden="true">▣</span><div><h3>iOS Simulator</h3><p>Use the same map and movement controls with devices running in iOS Simulator.</p></div></article>
     <article><span aria-hidden="true">↯</span><div><h3>Developer images</h3><p>Automatically look for and download the DeveloperDiskImage files required by the connected iOS version.</p></div></article>
-    <article><span aria-hidden="true">⌘</span><div><h3>Network devices</h3><p>Connect to supported devices through LocationSpoofer over the network.</p></div></article>
+    <article><span aria-hidden="true">⌘</span><div><h3>Network devices</h3><p>Pair a physical device over USB first, then reconnect to it over Wi-Fi.</p></div></article>
     <article><span aria-hidden="true">⌖</span><div><h3>Set a location</h3><p>Long-click anywhere on the map to make the device report that coordinate.</p></div></article>
     <article><span aria-hidden="true">⌕</span><div><h3>Location search</h3><p>Find a place or address and move the map directly to it.</p></div></article>
     <article><span aria-hidden="true">↝</span><div><h3>Route navigation</h3><p>Calculate a route from the current location and simulate traveling along it.</p></div></article>

@@ -118,7 +118,14 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .download-meta { display: grid; gap: 8px; min-width: 180px; padding-left: 28px; border-left: 1px solid var(--line); color: #7a8696; font-size: 11px; }
 .inline-actions { display: flex; align-items: center; gap: 22px; }
 .setup-section { padding-top: 70px; }
+.setup-notes { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.setup-notes article { display: grid; grid-template-columns: 54px 1fr; gap: 20px; padding: 30px; border: 1px solid var(--line); border-radius: 22px; background: rgba(255,255,255,.6); }
+.setup-symbol { display: grid; place-items: center; width: 50px; height: 50px; border-radius: 15px; color: var(--blue); background: rgba(50,119,246,.09); font-size: 12px; font-weight: 800; letter-spacing: .04em; }
+.setup-notes h3 { margin: 3px 0 10px; font-size: 20px; letter-spacing: -.03em; }
+.setup-notes p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.65; }
+.spoofing-section { padding-top: 30px; }
 .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 0; padding: 0; list-style: none; counter-reset: steps; }
+.steps.four-steps { grid-template-columns: repeat(4, 1fr); }
 .steps li { display: flex; gap: 18px; min-height: 170px; padding: 28px; border: 1px solid var(--line); border-radius: 20px; background: rgba(255,255,255,.6); }
 .steps li > span { display: grid; flex: 0 0 auto; place-items: center; width: 31px; height: 31px; border-radius: 10px; color: white; background: var(--blue); font-size: 12px; font-weight: 750; }
 .steps strong { display: block; margin: 5px 0 9px; }
@@ -166,6 +173,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(50,119,246,.45);
   .pair-section, .automation-grid { grid-template-columns: 1fr; gap: 48px; }
   .download-card { grid-template-columns: 112px 1fr; }
   .download-meta { grid-column: 2; padding: 18px 0 0; border-left: 0; border-top: 1px solid var(--line); }
+  .steps.four-steps { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 700px) {
@@ -191,7 +199,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(50,119,246,.45);
   .code-window pre { padding: 24px; font-size: 12px; }
   .feature-list { grid-template-columns: 1fr; }
   .usage-note { align-items: center; flex-direction: column; gap: 5px; }
-  .steps, .changelog-grid { grid-template-columns: 1fr; }
+  .setup-notes, .steps, .steps.four-steps, .changelog-grid { grid-template-columns: 1fr; }
   .page-hero { padding: 80px 0 58px; }
   .download-card { grid-template-columns: 1fr; padding: 28px; }
   .download-app-icon { width: 86px; height: 86px; border-radius: 22px; }
@@ -221,7 +229,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(50,119,246,.45);
   .screenshot-badge { border-color: rgba(205,224,248,.16); background: rgba(15,30,49,.9); color: #99a9bd; }
   .screenshot-badge strong { color: #eef5ff; }
   .trust-strip { background: rgba(10,22,38,.6); }
-  .pair-flow article, .download-card, .steps li, .release-column { background: linear-gradient(145deg, rgba(17,33,54,.96), rgba(9,22,38,.88)); }
+  .pair-flow article, .download-card, .setup-notes article, .steps li, .release-column { background: linear-gradient(145deg, rgba(17,33,54,.96), rgba(9,22,38,.88)); }
   .automation-section { border-block: 1px solid var(--line); }
   .legacy-callout { background: linear-gradient(120deg, rgba(29,59,99,.7), rgba(17,65,54,.58)); }
 }
