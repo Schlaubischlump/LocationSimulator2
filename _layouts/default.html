@@ -8,13 +8,14 @@
     <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/app-icon.png' | relative_url }}">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
       <a class="brand" href="{{ '/' | relative_url }}" aria-label="LocationSimulator2 home">
-        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <img class="brand-icon" src="{{ '/assets/images/app-icon.png' | relative_url }}" alt="">
         <span>LocationSimulator<span class="brand-two">2</span></span>
       </a>
 
@@ -32,7 +33,7 @@
     <footer class="site-footer">
       <div>
         <a class="brand footer-brand" href="{{ '/' | relative_url }}">
-          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <img class="brand-icon" src="{{ '/assets/images/app-icon.png' | relative_url }}" alt="">
           <span>LocationSimulator<span class="brand-two">2</span></span>
         </a>
         <p>Built for testing location-aware experiences on Apple platforms.</p>
@@ -45,4 +46,3 @@
     </footer>
   </body>
 </html>
-

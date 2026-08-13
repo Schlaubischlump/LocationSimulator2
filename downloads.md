@@ -14,7 +14,7 @@ permalink: /downloads/
 
 <section class="shell download-stack">
   <article class="download-card">
-    <div class="download-icon simulator-icon"><span></span></div>
+    <img class="download-app-icon" src="{{ '/assets/images/app-icon.png' | relative_url }}" width="152" height="152" alt="LocationSimulator app icon">
     <div class="download-copy">
       <p class="eyebrow">Step 1 · Controller</p>
       <h2>{{ site.data.products.locationsimulator.name }}</h2>
@@ -50,4 +50,3 @@ permalink: /downloads/
     <li><span>3</span><div><strong>Select a device</strong><p>Choose a physical device or Xcode Simulator, then pick a location on the map.</p></div></li>
   </ol>
 </section>
-

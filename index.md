@@ -20,38 +20,16 @@ description: LocationSimulator2 pairs a focused controller with LocationSpoofer 
     <p class="hero-note">Two apps. One straightforward testing workflow.</p>
   </div>
 
-  <div class="product-stage" aria-label="Stylized preview of LocationSimulator">
-    <div class="orbit orbit-one"></div>
-    <div class="orbit orbit-two"></div>
-    <div class="app-window">
-      <div class="window-bar">
-        <span></span><span></span><span></span>
-        <div class="window-title">LocationSimulator</div>
-      </div>
-      <div class="app-body">
-        <aside class="app-sidebar">
-          <div class="sidebar-label">DEVICES</div>
-          <div class="device active"><i></i><span>David's iPhone<small>Connected</small></span></div>
-          <div class="device"><i></i><span>iPhone 17 Pro<small>Simulator</small></span></div>
-          <div class="sidebar-label route-label">ROUTE</div>
-          <div class="route-row"><b>A</b><span>Berlin Central</span></div>
-          <div class="route-line"></div>
-          <div class="route-row"><b>B</b><span>Tempelhofer Feld</span></div>
-        </aside>
-        <div class="map-canvas">
-          <div class="map-grid"></div>
-          <div class="water"></div>
-          <div class="road road-one"></div>
-          <div class="road road-two"></div>
-          <div class="route-path"></div>
-          <div class="pin pin-start"></div>
-          <div class="pin pin-finish"></div>
-          <div class="map-toolbar"><span>−</span><span>+</span></div>
-          <div class="movement-card"><strong>Walking</strong><span>5.0 km/h</span><button aria-label="Preview pause button">Ⅱ</button></div>
-        </div>
-      </div>
+  <div class="product-stage">
+    <div class="screenshot-glow" aria-hidden="true"></div>
+    <picture class="screenshot-picture">
+      <source srcset="{{ '/assets/images/location-simulator-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+      <img src="{{ '/assets/images/location-simulator-light.png' | relative_url }}" width="1800" height="971" alt="LocationSimulator showing connected iOS devices and a simulated walking route through London">
+    </picture>
+    <div class="screenshot-badge">
+      <img src="{{ '/assets/images/app-icon.png' | relative_url }}" alt="">
+      <span><strong>LocationSimulator</strong>Real app interface</span>
     </div>
-    <div class="connection-pill"><span></span> LocationSpoofer connected</div>
   </div>
 </section>
 
@@ -120,4 +98,3 @@ description: LocationSimulator2 pairs a focused controller with LocationSpoofer 
     <a class="button button-secondary" href="{{ '/downloads/' | relative_url }}">See setup details <span aria-hidden="true">→</span></a>
   </div>
 </section>
-

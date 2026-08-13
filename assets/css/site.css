@@ -30,9 +30,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-header { position: relative; z-index: 20; display: flex; align-items: center; justify-content: space-between; width: min(1320px, calc(100% - 48px)); margin: 0 auto; padding: 26px 0; }
 .brand { display: inline-flex; align-items: center; gap: 11px; color: var(--ink); font-size: 18px; font-weight: 730; letter-spacing: -0.04em; text-decoration: none; }
 .brand-two { color: var(--blue); }
-.brand-mark { position: relative; display: inline-grid; place-items: center; width: 32px; height: 32px; border-radius: 10px; background: linear-gradient(145deg, var(--blue), var(--cyan)); box-shadow: 0 8px 18px rgba(50, 119, 246, 0.28); }
-.brand-mark::before { content: ""; width: 14px; height: 14px; border: 2px solid white; border-radius: 50%; }
-.brand-mark span { position: absolute; width: 5px; height: 5px; border-radius: 50% 50% 50% 0; background: white; transform: translate(7px, -7px) rotate(45deg); }
+.brand-icon { display: block; width: 32px; height: 32px; border-radius: 10px; box-shadow: 0 8px 18px rgba(50, 119, 246, 0.28); }
 .site-nav { display: flex; align-items: center; gap: 7px; padding: 5px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,255,255,.64); backdrop-filter: blur(18px); }
 .site-nav a { padding: 9px 14px; border-radius: 999px; color: #435064; font-size: 13px; font-weight: 620; text-decoration: none; transition: background .2s, color .2s, transform .2s; }
 .site-nav a:hover { color: var(--ink); background: rgba(50,119,246,.08); }
@@ -60,47 +58,14 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .button-accent { color: white; background: linear-gradient(120deg, var(--blue), #3d9bf1); box-shadow: 0 12px 24px rgba(50,119,246,.25); }
 .hero-note { margin: 15px 0 0; color: #8a95a4; font-size: 12px; }
 
-.product-stage { position: relative; min-width: 0; perspective: 1000px; }
-.app-window { position: relative; z-index: 2; overflow: hidden; width: 100%; aspect-ratio: 1.18; border: 1px solid rgba(255,255,255,.75); border-radius: 23px; background: rgba(255,255,255,.72); box-shadow: 0 44px 100px rgba(34,83,146,.24), inset 0 1px white; backdrop-filter: blur(22px); transform: rotateY(-4deg) rotateX(2deg); }
-.window-bar { position: relative; display: flex; align-items: center; gap: 6px; height: 44px; padding: 0 16px; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.72); }
-.window-bar > span { width: 9px; height: 9px; border-radius: 50%; background: #ff665c; }
-.window-bar > span:nth-child(2) { background: #ffbd44; }
-.window-bar > span:nth-child(3) { background: #32c94a; }
-.window-title { position: absolute; left: 50%; color: #687486; font-size: 10px; transform: translateX(-50%); }
-.app-body { display: grid; grid-template-columns: 31% 69%; height: calc(100% - 44px); }
-.app-sidebar { padding: 20px 12px; border-right: 1px solid var(--line); background: rgba(243,247,252,.84); }
-.sidebar-label { margin: 0 8px 8px; color: #8792a1; font-size: 8px; font-weight: 750; letter-spacing: .12em; }
-.device { display: flex; gap: 9px; align-items: center; padding: 10px 9px; border-radius: 9px; color: #465267; font-size: 9px; }
-.device.active { color: white; background: linear-gradient(120deg, var(--blue), #559af7); box-shadow: 0 6px 14px rgba(50,119,246,.28); }
-.device i { width: 8px; height: 14px; border: 1.5px solid currentColor; border-radius: 2px; }
-.device span { display: grid; gap: 2px; }
-.device small { opacity: .68; font-size: 7px; }
-.route-label { margin-top: 28px; }
-.route-row { display: flex; align-items: center; gap: 8px; padding: 2px 8px; color: #536074; font-size: 8px; }
-.route-row b { display: grid; place-items: center; width: 16px; height: 16px; border-radius: 50%; color: white; background: var(--blue); font-size: 7px; }
-.route-row:last-child b { background: var(--green); }
-.route-line { width: 1px; height: 18px; margin: 2px 0 2px 15px; border-left: 1px dashed #a8b4c4; }
-.map-canvas { position: relative; overflow: hidden; background: #eaf0e7; }
-.map-grid { position: absolute; inset: -20%; opacity: .76; background-image: linear-gradient(28deg, transparent 47%, white 48%, white 51%, transparent 52%), linear-gradient(-26deg, transparent 47%, rgba(255,255,255,.9) 48%, rgba(255,255,255,.9) 51%, transparent 52%); background-size: 76px 58px, 94px 72px; transform: rotate(-8deg); }
-.water { position: absolute; width: 130%; height: 34%; left: -20%; top: 58%; border: 12px solid rgba(255,255,255,.7); border-radius: 50%; background: #bfe0ee; transform: rotate(-13deg); }
-.road { position: absolute; width: 120%; height: 9px; border: 3px solid white; border-radius: 50%; background: #d6cba9; }
-.road-one { left: -10%; top: 35%; transform: rotate(22deg); }
-.road-two { left: -8%; top: 62%; transform: rotate(-35deg); }
-.route-path { position: absolute; width: 54%; height: 62%; left: 22%; top: 14%; border: 5px solid var(--blue); border-left-color: transparent; border-radius: 48% 42% 48% 45%; transform: rotate(19deg); filter: drop-shadow(0 2px 1px white); }
-.pin { position: absolute; z-index: 3; width: 18px; height: 18px; border: 4px solid white; border-radius: 50% 50% 50% 0; background: var(--blue); box-shadow: 0 4px 10px rgba(20,53,90,.22); transform: rotate(-45deg); }
-.pin-start { left: 25%; top: 65%; }
-.pin-finish { left: 66%; top: 23%; background: var(--green); }
-.map-toolbar { position: absolute; right: 12px; top: 12px; display: grid; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: rgba(255,255,255,.9); box-shadow: 0 4px 10px rgba(20,53,90,.10); }
-.map-toolbar span { display: grid; place-items: center; width: 27px; height: 25px; font-size: 13px; }
-.map-toolbar span + span { border-top: 1px solid var(--line); }
-.movement-card { position: absolute; left: 50%; bottom: 15px; display: grid; grid-template-columns: auto auto 29px; align-items: center; gap: 13px; min-width: 204px; padding: 8px 9px 8px 14px; border: 1px solid rgba(255,255,255,.8); border-radius: 12px; background: rgba(255,255,255,.9); box-shadow: 0 12px 28px rgba(29,62,103,.16); font-size: 8px; transform: translateX(-50%); backdrop-filter: blur(12px); }
-.movement-card span { color: #7c8796; }
-.movement-card button { width: 29px; height: 29px; border: 0; border-radius: 8px; color: white; background: var(--blue); font-size: 9px; }
-.connection-pill { position: absolute; z-index: 4; right: -14px; bottom: -22px; display: flex; align-items: center; gap: 8px; padding: 11px 15px; border: 1px solid rgba(255,255,255,.8); border-radius: 999px; background: rgba(255,255,255,.86); box-shadow: 0 16px 35px rgba(33,66,108,.17); color: #536074; font-size: 10px; font-weight: 650; backdrop-filter: blur(15px); }
-.connection-pill span { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 4px rgba(80,209,140,.15); }
-.orbit { position: absolute; z-index: 0; border: 1px solid rgba(50,119,246,.16); border-radius: 50%; }
-.orbit-one { inset: -55px -45px; transform: rotate(24deg); }
-.orbit-two { inset: -95px 40px; transform: rotate(-18deg); }
+.product-stage { position: relative; min-width: 0; perspective: 1200px; }
+.screenshot-picture { position: relative; z-index: 2; display: block; transform: rotateY(-4deg) rotateX(1.5deg); transform-origin: center left; }
+.screenshot-picture img { display: block; width: 100%; height: auto; border-radius: 22px; filter: drop-shadow(0 36px 42px rgba(33,73,125,.24)); }
+.screenshot-glow { position: absolute; inset: -16% -10%; z-index: 0; border-radius: 50%; background: radial-gradient(circle, rgba(72,157,255,.24), rgba(65,207,173,.08) 48%, transparent 72%); filter: blur(18px); }
+.screenshot-badge { position: absolute; z-index: 4; right: -12px; bottom: -26px; display: flex; align-items: center; gap: 10px; padding: 9px 14px 9px 9px; border: 1px solid rgba(255,255,255,.75); border-radius: 17px; background: rgba(255,255,255,.88); box-shadow: 0 16px 36px rgba(27,61,105,.18); color: #647185; font-size: 9px; backdrop-filter: blur(16px); }
+.screenshot-badge img { width: 34px; height: 34px; border-radius: 9px; }
+.screenshot-badge span { display: grid; gap: 2px; }
+.screenshot-badge strong { color: #15243a; font-size: 10px; }
 
 .trust-strip { display: flex; justify-content: center; align-items: center; gap: 30px; padding: 19px 24px; border-block: 1px solid var(--line); color: #667386; background: rgba(255,255,255,.45); font-size: 11px; font-weight: 720; letter-spacing: .06em; text-transform: uppercase; }
 .trust-strip i { width: 4px; height: 4px; border-radius: 50%; background: var(--blue); }
@@ -145,10 +110,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .download-stack { display: grid; gap: 22px; padding-bottom: 70px; }
 .download-card { display: grid; grid-template-columns: 130px 1fr auto; gap: 34px; align-items: center; padding: 38px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: 0 14px 45px rgba(32,58,91,.07); }
 .download-icon { display: grid; place-items: center; width: 112px; height: 112px; border-radius: 28px; box-shadow: 0 18px 35px rgba(38,81,137,.2); }
-.simulator-icon { background: linear-gradient(145deg, var(--blue), var(--cyan)); }
+.download-app-icon { display: block; width: 112px; height: 112px; border-radius: 28px; box-shadow: 0 18px 35px rgba(38,81,137,.2); }
 .spoofer-icon { background: linear-gradient(145deg, #1d9c65, var(--green)); }
 .download-icon span { position: relative; width: 46px; height: 46px; border: 5px solid white; border-radius: 50%; }
-.simulator-icon span::after { content: ""; position: absolute; width: 12px; height: 12px; right: -8px; top: -8px; border-radius: 50% 50% 50% 0; background: white; transform: rotate(45deg); }
 .spoofer-icon span::before, .spoofer-icon span::after { content: ""; position: absolute; left: 50%; width: 12px; height: 12px; border: 4px solid white; border-radius: 50%; transform: translateX(-50%); }
 .spoofer-icon span::before { top: -18px; }
 .spoofer-icon span::after { bottom: -18px; }
@@ -188,8 +152,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 .site-footer { display: flex; justify-content: space-between; gap: 40px; width: min(1320px, calc(100% - 48px)); margin: 0 auto; padding: 50px 0 65px; border-top: 1px solid var(--line); }
 .footer-brand { font-size: 16px; }
-.footer-brand .brand-mark { width: 27px; height: 27px; border-radius: 9px; }
-.footer-brand .brand-mark::before { width: 11px; height: 11px; }
+.footer-brand .brand-icon { width: 27px; height: 27px; border-radius: 9px; }
 .site-footer p { margin: 12px 0 0; color: #7d8898; font-size: 12px; }
 .site-footer nav { display: flex; gap: 24px; align-items: center; }
 .site-footer nav a { color: #667386; font-size: 12px; font-weight: 650; text-decoration: none; }
@@ -222,8 +185,8 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(50,119,246,.45);
   .hero-lede { font-size: 16px; }
   .hero-actions { align-items: stretch; flex-direction: column; }
   .hero-actions .button { width: 100%; }
-  .app-window { transform: none; }
-  .app-sidebar { display: none; }
+  .screenshot-picture { transform: none; }
+  .screenshot-badge { right: 8px; }
   .app-body { grid-template-columns: 1fr; }
   .connection-pill { right: 8px; }
   .trust-strip { justify-content: flex-start; overflow-x: auto; }
@@ -238,7 +201,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(50,119,246,.45);
   .feature-grid h3 { margin-top: 75px; }
   .page-hero { padding: 80px 0 58px; }
   .download-card { grid-template-columns: 1fr; padding: 28px; }
-  .download-icon { width: 86px; height: 86px; border-radius: 22px; }
+  .download-icon, .download-app-icon { width: 86px; height: 86px; border-radius: 22px; }
   .download-meta { grid-column: 1; }
   .inline-actions { align-items: flex-start; flex-direction: column; }
   .legacy-callout, .site-footer { align-items: flex-start; flex-direction: column; }
@@ -262,8 +225,8 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(50,119,246,.45);
   .button-primary:hover { background: #e5edf8; }
   .button-secondary { background: rgba(14,29,48,.8); }
   .button-secondary:hover { background: #132842; }
-  .app-window, .window-bar, .connection-pill { background: rgba(15,30,49,.88); border-color: rgba(205,224,248,.14); }
-  .app-sidebar { background: rgba(10,22,38,.92); }
+  .screenshot-badge { border-color: rgba(205,224,248,.16); background: rgba(15,30,49,.9); color: #99a9bd; }
+  .screenshot-badge strong { color: #eef5ff; }
   .trust-strip { background: rgba(10,22,38,.6); }
   .simulator-card, .spoofer-card, .download-card, .steps li, .release-column { background: linear-gradient(145deg, rgba(17,33,54,.96), rgba(9,22,38,.88)); }
   .product-card li { color: #b7c3d2; }
