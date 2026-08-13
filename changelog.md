@@ -8,8 +8,8 @@ permalink: /changelog/
 
 <section class="page-hero shell narrow">
   <p class="eyebrow">Release notes</p>
-  <h1>What changed,<br>and where.</h1>
-  <p>LocationSimulator and LocationSpoofer are versioned independently. Add one Markdown file per release and this page updates automatically.</p>
+  <h1>Changelog.</h1>
+  <p>Updates for LocationSimulator and LocationSpoofer.</p>
 </section>
 
 <section class="shell changelog-grid">
@@ -17,7 +17,7 @@ permalink: /changelog/
   {% assign spoofer_releases = site.releases | where: "product", "locationspoofer" | sort: "date" | reverse %}
 
   <div class="release-column">
-    <div class="release-column-header"><span class="status-dot blue"></span><div><p class="eyebrow">The controller</p><h2>LocationSimulator</h2></div></div>
+    <div class="release-column-header"><span class="status-dot blue"></span><div><p class="eyebrow">macOS app</p><h2>LocationSimulator</h2></div></div>
     {% if simulator_releases.size > 0 %}
       {% for release in simulator_releases %}
       <article class="release-entry">
@@ -31,7 +31,7 @@ permalink: /changelog/
   </div>
 
   <div class="release-column">
-    <div class="release-column-header"><span class="status-dot green"></span><div><p class="eyebrow">The macOS companion</p><h2>LocationSpoofer</h2></div></div>
+    <div class="release-column-header"><span class="status-dot green"></span><div><p class="eyebrow">Required helper</p><h2>LocationSpoofer</h2></div></div>
     {% if spoofer_releases.size > 0 %}
       {% for release in spoofer_releases %}
       <article class="release-entry">
@@ -47,7 +47,6 @@ permalink: /changelog/
 </section>
 
 <section class="legacy-callout shell">
-  <div><p class="eyebrow">Looking for the original app?</p><h2>The complete legacy changelog is still available.</h2></div>
+  <div><p class="eyebrow">Original app</p><h2>Looking for the legacy changelog?</h2></div>
   <a class="button button-secondary" href="{{ site.data.products.site.legacy_url }}">Open legacy website <span aria-hidden="true">↗</span></a>
 </section>
-
