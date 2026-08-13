@@ -15,7 +15,7 @@ description: Spoof locations on physical iPhones and iPads or devices running in
         <span class="app-store-symbol" aria-hidden="true"></span>
         <span><small>Download on the</small>App Store</span>
       </a>
-      <a class="button button-secondary" href="{{ site.data.products.locationspoofer.download_url }}"><img class="button-icon" src="{{ '/assets/images/location-spoofer-icon.png' | relative_url }}" alt="">Download LocationSpoofer <span aria-hidden="true">↓</span></a>
+      <a class="button button-secondary" href="{{ site.data.products.locationspoofer.download_url }}"><img class="button-icon spoofer-icon-cropped" src="{{ '/assets/images/location-spoofer-icon.png' | relative_url }}" alt="">Download LocationSpoofer <span aria-hidden="true">↓</span></a>
     </div>
     <p class="hero-note">Requires LocationSpoofer, installed separately on your Mac.</p>
   </div>
@@ -49,7 +49,7 @@ description: Spoof locations on physical iPhones and iPads or devices running in
     </article>
     <span class="flow-arrow" aria-hidden="true">→</span>
     <article>
-      <img src="{{ '/assets/images/location-spoofer-icon.png' | relative_url }}" alt="">
+      <img class="spoofer-icon-cropped" src="{{ '/assets/images/location-spoofer-icon.png' | relative_url }}" alt="">
       <div><h3>LocationSpoofer</h3><p>Applies it while both apps are running.</p></div>
     </article>
   </div>

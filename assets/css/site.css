@@ -52,6 +52,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .button small { display: block; margin-bottom: 2px; font-size: 9px; font-weight: 560; letter-spacing: .02em; }
 .app-store-symbol { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 25px; font-weight: 500; line-height: 1; }
 .button-icon { display: block; width: 27px; height: 27px; margin-left: -6px; border-radius: 8px; }
+.spoofer-icon-cropped { clip-path: inset(8% round 23%); transform: scale(1.12); }
 .button-primary { color: white; background: var(--ink); box-shadow: 0 14px 24px rgba(11, 23, 39, .18); }
 .button-primary:hover { background: #1b2a40; box-shadow: 0 18px 30px rgba(11, 23, 39, .22); }
 .button-secondary { border-color: var(--line); background: rgba(255,255,255,.72); }
