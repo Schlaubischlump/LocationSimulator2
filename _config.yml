@@ -1,5 +1,5 @@
 title: LocationSimulator2
-description: Simulate locations on Apple devices with a modern controller and a secure macOS companion.
+description: Spoof locations on physical iPhones and iPads or devices running in iOS Simulator.
 url: https://schlaubischlump.github.io
 baseurl: /LocationSimulator2
 
@@ -17,4 +17,3 @@ exclude:
   - README.md
   - script
   - vendor
-
