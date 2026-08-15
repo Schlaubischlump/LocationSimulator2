@@ -91,7 +91,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .pair-section-band { color: white; background: var(--navy); }
 .pair-section-band .eyebrow { color: #67a0ff; }
 .pair-section { display: grid; grid-template-columns: .8fr 1.2fr; gap: 80px; align-items: center; }
-.pair-heading h2, .automation-copy h2 { margin: 0; font-size: clamp(42px, 5vw, 62px); line-height: 1; letter-spacing: -.055em; }
+.pair-heading h2, .automation-copy h2 { margin: 0; line-height: 1; letter-spacing: -.055em; }
+.pair-heading h2 { font-size: clamp(30px, 4vw, 48px); white-space: nowrap; }
+.automation-copy h2 { font-size: clamp(42px, 5vw, 62px); }
 .pair-flow { display: grid; grid-template-columns: 1fr auto 1fr; gap: 22px; align-items: center; }
 .pair-flow article { display: flex; gap: 17px; align-items: center; min-height: 118px; padding: 24px; border: 1px solid var(--line); border-radius: 22px; background: var(--surface); box-shadow: 0 14px 36px rgba(39,67,103,.06); }
 .pair-section-band .pair-flow article { border-color: rgba(255,255,255,.12); background: #0d1b2d; box-shadow: 0 18px 48px rgba(0,0,0,.2); }
