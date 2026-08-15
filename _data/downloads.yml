@@ -1,0 +1,42 @@
+# Download buttons are rendered in this order.
+# Set visible to true or false independently for every entry.
+# A visible entry also needs a non-empty URL.
+
+- id: locationsimulator-app-store
+  label: LocationSimulator App Store
+  visible: true
+  url: https://apps.apple.com/app/id6800851055
+  kind: app_store
+  product_key: locationsimulator
+  eyebrow: App Store
+  description: Install the public release of LocationSimulator from the Mac App Store.
+  icon: /assets/images/app-icon.png
+  meta:
+    - Public release
+    - Installed from the App Store
+
+- id: locationsimulator-testflight
+  label: LocationSimulator TestFlight
+  visible: false
+  url: ""
+  kind: testflight
+  product_key: locationsimulator
+  eyebrow: TestFlight beta
+  description: Join the TestFlight beta to try prerelease versions of LocationSimulator.
+  icon: /assets/images/app-icon.png
+  meta:
+    - Beta release
+    - Installed with TestFlight
+
+- id: locationspoofer
+  label: LocationSpoofer
+  visible: true
+  url: https://github.com/Schlaubischlump/LocationSpoofer-App/releases/latest/download/LocationSpoofer.zip
+  kind: spoofer
+  product_key: locationspoofer
+  eyebrow: Required helper app
+  description: Download the macOS helper used to communicate with physical devices and iOS Simulator.
+  icon: /assets/images/location-spoofer-icon.png
+  meta:
+    - Latest macOS release
+    - Keep it running while testing

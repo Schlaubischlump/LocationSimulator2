@@ -10,13 +10,12 @@ description: Spoof locations on physical iPhones and iPads or devices running in
     <p class="eyebrow">LocationSimulator for macOS</p>
     <h1>Spoof locations.<br><span>Test your app.</span></h1>
     <p class="hero-lede">Set a location, move manually, or follow a route on a physical iPhone, iPad, or iOS Simulator.</p>
+    {% assign visible_downloads = site.data.downloads | where: "visible", true %}
+    {% if visible_downloads.size > 0 %}
     <div class="hero-actions">
-      <a class="button button-primary" href="{{ site.data.products.locationsimulator.app_store_url }}">
-        <span class="app-store-symbol" aria-hidden="true"></span>
-        <span><small>Download on the</small>App Store</span>
-      </a>
-      <a class="button button-secondary" href="{{ site.data.products.locationspoofer.download_url }}"><img class="button-icon spoofer-icon-cropped" src="{{ '/assets/images/location-spoofer-icon.png' | relative_url }}" alt="">Download LocationSpoofer <span aria-hidden="true">↓</span></a>
+      {% for download in visible_downloads %}{% include download-button.html download=download %}{% endfor %}
     </div>
+    {% endif %}
     <p class="hero-note">Requires LocationSpoofer, installed separately on your Mac.</p>
   </div>
 

@@ -2,14 +2,26 @@
 
 This branch contains the static Jekyll website published by GitHub Pages.
 
-## Edit site-wide links
+## Configure downloads
 
-All repository, download, App Store, issue, and legacy URLs live in
-`_data/products.yml`. Changing a link there updates every page that uses it.
+The ordered download list lives in `_data/downloads.yml`:
+
+- `LocationSimulator App Store`
+- `LocationSimulator TestFlight`
+- `LocationSpoofer`
+
+Each entry has its own `visible` switch and `url`. Set any combination to
+`true` or `false`; App Store and TestFlight can both be visible, and all three
+entries can be hidden. A visible entry must also have a non-empty URL.
+
+The TestFlight entry is disabled by default. Paste the public TestFlight URL
+into that entry before setting `visible: true`.
 
 The LocationSpoofer download uses a permanent GitHub Releases URL. Each release
 should contain an asset named `LocationSpoofer.zip` so the website always
 downloads the latest published version without a website edit.
+
+Issue and legacy URLs remain in `_data/products.yml`.
 
 ## Add a changelog entry
 
@@ -57,4 +69,3 @@ Configure the repository's Pages source as **Deploy from a branch**, select the
 and publish the site at:
 
 <https://schlaubischlump.github.io/LocationSimulator2/>
-

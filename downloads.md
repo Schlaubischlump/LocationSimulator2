@@ -13,27 +13,22 @@ permalink: /downloads/
 </section>
 
 <section class="shell download-stack">
-  <article class="download-card">
-    <img class="download-app-icon" src="{{ '/assets/images/app-icon.png' | relative_url }}" width="152" height="152" alt="LocationSimulator app icon">
+  {% assign visible_downloads = site.data.downloads | where: "visible", true %}
+  {% if visible_downloads.size > 0 %}
+  {% for download in visible_downloads %}
+  {% assign product = site.data.products[download.product_key] %}
+  <article class="download-card" id="{{ download.id }}">
+    <img class="download-app-icon{% if download.kind == 'spoofer' %} spoofer-icon-cropped{% endif %}" src="{{ download.icon | relative_url }}" width="152" height="152" alt="{{ product.name }} app icon">
     <div class="download-copy">
-      <p class="eyebrow">Step 1 · macOS app</p>
-      <h2>{{ site.data.products.locationsimulator.name }}</h2>
-      <p>{{ site.data.products.locationsimulator.description }}</p>
-      <a class="button button-primary" href="{{ site.data.products.locationsimulator.app_store_url }}"><span class="app-store-symbol" aria-hidden="true"></span><span><small>Download on the</small>App Store</span></a>
+      <p class="eyebrow">{{ download.eyebrow }}</p>
+      <h2>{{ download.label }}</h2>
+      <p>{{ download.description }}</p>
+      {% include download-button.html download=download %}
     </div>
-    <div class="download-meta"><span>For macOS</span><span>Installed from the App Store</span></div>
+    <div class="download-meta">{% for item in download.meta %}<span>{{ item }}</span>{% endfor %}</div>
   </article>
-
-  <article class="download-card">
-    <img class="download-app-icon spoofer-icon-cropped" src="{{ '/assets/images/location-spoofer-icon.png' | relative_url }}" width="152" height="152" alt="LocationSpoofer app icon">
-    <div class="download-copy">
-      <p class="eyebrow">Step 2 · macOS companion</p>
-      <h2>{{ site.data.products.locationspoofer.name }}</h2>
-      <p>{{ site.data.products.locationspoofer.description }}</p>
-      <div class="inline-actions">
-        <a class="button button-accent" href="{{ site.data.products.locationspoofer.download_url }}">Download latest <span aria-hidden="true">↓</span></a>
-      </div>
-    </div>
-    <div class="download-meta"><span>Separate macOS helper</span><span>Keep it running while testing</span></div>
-  </article>
+  {% endfor %}
+  {% else %}
+  <div class="empty-downloads"><span aria-hidden="true">—</span><h2>No downloads are currently available.</h2><p>Check back later for the next release.</p></div>
+  {% endif %}
 </section>
