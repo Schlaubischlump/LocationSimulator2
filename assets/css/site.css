@@ -71,7 +71,13 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 .product-stage { position: relative; min-width: 0; perspective: 1200px; }
 .screenshot-picture { position: relative; z-index: 2; display: block; transform: rotateY(-4deg) rotateX(1.5deg); transform-origin: center left; }
-.screenshot-picture img { display: block; width: 100%; height: auto; filter: drop-shadow(0 36px 42px rgba(33,73,125,.24)); }
+.screenshot-comparison { --split: 50%; isolation: isolate; filter: drop-shadow(0 36px 42px rgba(33,73,125,.24)); }
+.comparison-image { display: block; width: 100%; height: auto; }
+.comparison-dark { position: absolute; inset: 0; z-index: 1; clip-path: inset(0 0 0 var(--split)); }
+.comparison-range { position: absolute; inset: 0; z-index: 4; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; touch-action: pan-y; }
+.comparison-divider { position: absolute; z-index: 3; top: 2.5%; bottom: 2.5%; left: var(--split); width: 2px; background: rgba(255,255,255,.92); box-shadow: 0 0 0 1px rgba(8,24,45,.2), 0 0 18px rgba(8,24,45,.3); transform: translateX(-1px); pointer-events: none; }
+.comparison-handle { position: absolute; top: 50%; left: 50%; display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid rgba(10,31,58,.16); border-radius: 50%; color: #18304f; background: rgba(255,255,255,.94); box-shadow: 0 8px 24px rgba(8,24,45,.25); font-size: 16px; font-weight: 760; transform: translate(-50%, -50%); backdrop-filter: blur(12px); }
+.comparison-range:focus-visible + .comparison-divider .comparison-handle { outline: 3px solid rgba(50,119,246,.62); outline-offset: 4px; }
 .screenshot-glow { position: absolute; inset: -16% -10%; z-index: 0; border-radius: 50%; background: radial-gradient(circle, rgba(72,157,255,.24), rgba(65,207,173,.08) 48%, transparent 72%); filter: blur(18px); }
 .screenshot-badge { position: absolute; z-index: 4; right: -12px; bottom: -26px; display: flex; align-items: center; gap: 10px; padding: 9px 14px 9px 9px; border: 1px solid rgba(255,255,255,.75); border-radius: 17px; background: rgba(255,255,255,.88); box-shadow: 0 16px 36px rgba(27,61,105,.18); color: #647185; font-size: 9px; backdrop-filter: blur(16px); }
 .screenshot-badge img { width: 34px; height: 34px; border-radius: 9px; }
