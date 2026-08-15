@@ -21,7 +21,8 @@ The LocationSpoofer download uses a permanent GitHub Releases URL. Each release
 should contain an asset named `LocationSpoofer.zip` so the website always
 downloads the latest published version without a website edit.
 
-Issue and legacy URLs remain in `_data/products.yml`.
+Issue, legacy, and contact settings live in `_data/products.yml`. Change
+`contact_email` there to update the footer's email button on every page.
 
 ## Add a changelog entry
 

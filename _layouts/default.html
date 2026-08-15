@@ -39,6 +39,9 @@
         <p>For developers testing location-based applications.</p>
       </div>
       <nav aria-label="Footer navigation">
+        {% if site.data.products.site.contact_email %}
+        <a class="footer-contact" href="mailto:{{ site.data.products.site.contact_email }}">Contact</a>
+        {% endif %}
         <a href="{{ site.data.products.site.issues_url }}">Issues</a>
         <a href="{{ site.data.products.site.legacy_url }}">Legacy website</a>
       </nav>

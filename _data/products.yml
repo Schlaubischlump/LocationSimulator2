@@ -1,6 +1,7 @@
 site:
   issues_url: https://github.com/Schlaubischlump/LocationSimulator2/issues/new/choose
   legacy_url: https://schlaubischlump.github.io/LocationSimulator/
+  contact_email: locationsimulator@icloud.com
 
 locationsimulator:
   name: LocationSimulator

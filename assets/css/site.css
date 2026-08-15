@@ -184,6 +184,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-footer nav { display: flex; gap: 24px; align-items: center; }
 .site-footer nav a { color: #667386; font-size: 12px; font-weight: 650; text-decoration: none; }
 .site-footer nav a:hover { color: var(--blue); }
+.site-footer nav .footer-contact { padding: 10px 15px; border: 1px solid var(--line); border-radius: 12px; color: var(--ink); background: var(--surface); box-shadow: 0 8px 20px rgba(32,58,91,.07); }
+.site-footer nav .footer-contact:hover { color: var(--blue-deep); background: white; box-shadow: 0 11px 24px rgba(32,58,91,.11); }
 
 a:focus-visible, button:focus-visible { outline: 3px solid rgba(50,119,246,.45); outline-offset: 3px; }
 
@@ -259,6 +261,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(50,119,246,.45);
   .button-spoofer { color: #edf4ff; background: rgba(14,29,48,.8); }
   .button-spoofer:hover { background: #132842; }
   .github-icon { filter: invert(1); }
+  .site-footer nav .footer-contact:hover { color: #9fc1ff; background: #132842; }
   .trust-strip { background: rgba(10,22,38,.6); }
   .pair-flow article, .download-card, .empty-downloads, .setup-notes article, .steps li, .release-column { background: linear-gradient(145deg, rgba(17,33,54,.96), rgba(9,22,38,.88)); }
   .automation-section { border-block: 1px solid var(--line); }
