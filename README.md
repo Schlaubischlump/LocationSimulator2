@@ -14,8 +14,8 @@ Each entry has its own `visible` switch and `url`. Set any combination to
 `true` or `false`; App Store and TestFlight can both be visible, and all three
 entries can be hidden. A visible entry must also have a non-empty URL.
 
-The TestFlight entry is disabled by default. Paste the public TestFlight URL
-into that entry before setting `visible: true`.
+The TestFlight entry currently uses a clearly marked dummy URL for layout
+testing. Replace it with the public TestFlight invitation before publishing.
 
 The LocationSpoofer download uses a permanent GitHub Releases URL. Each release
 should contain an asset named `LocationSpoofer.zip` so the website always

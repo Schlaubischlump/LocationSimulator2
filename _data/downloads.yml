@@ -17,8 +17,9 @@
 
 - id: locationsimulator-testflight
   label: LocationSimulator TestFlight
-  visible: false
-  url: ""
+  visible: true
+  # Temporary preview URL. Replace this with the public TestFlight invitation.
+  url: https://example.com/location-simulator-testflight
   kind: testflight
   product_key: locationsimulator
   eyebrow: TestFlight beta
