@@ -137,16 +137,16 @@ description: Spoof locations on physical iPhones and iPads or devices running in
     <h2>What it handles.</h2>
   </div>
   <div class="feature-list">
-    <article><span aria-hidden="true">⌁</span><div><h3>Physical devices</h3><p>Spoof an iPhone or iPad without a jailbreak or an app installed on the device.</p></div></article>
-    <article><span aria-hidden="true">▣</span><div><h3>iOS Simulator</h3><p>Use the same map and movement controls with devices running in iOS Simulator.</p></div></article>
-    <article><span aria-hidden="true">↯</span><div><h3>Developer images</h3><p>Automatically look for and download the DeveloperDiskImage files required by the connected iOS version.</p></div></article>
-    <article><span aria-hidden="true">⌘</span><div><h3>Network devices</h3><p>Pair a physical device over USB first, then reconnect to it over Wi-Fi.</p></div></article>
-    <article><span aria-hidden="true">⌖</span><div><h3>Set a location</h3><p>Long-click anywhere on the map to make the device report that coordinate.</p></div></article>
-    <article><span aria-hidden="true">⌕</span><div><h3>Location search</h3><p>Find a place or address and move the map directly to it.</p></div></article>
-    <article><span aria-hidden="true">↝</span><div><h3>Route navigation</h3><p>Calculate a route from the current location and simulate traveling along it.</p></div></article>
-    <article><span aria-hidden="true">◴</span><div><h3>Movement speeds</h3><p>Use custom speeds or switch between the predefined Walk, Cycle, and Drive modes.</p></div></article>
-    <article><span aria-hidden="true">↑</span><div><h3>Keyboard control</h3><p>Move and change direction with the arrow keys while testing.</p></div></article>
-    <article><span aria-hidden="true">◐</span><div><h3>Dark mode</h3><p>Follow the current macOS appearance or choose the app appearance yourself.</p></div></article>
+    <article><span class="feature-icon" aria-hidden="true"><img src="{{ '/assets/images/features/smartphone.svg' | relative_url }}" alt=""></span><div><h3>Physical devices</h3><p>Spoof an iPhone or iPad without a jailbreak or an app installed on the device.</p></div></article>
+    <article><span class="feature-icon" aria-hidden="true"><img src="{{ '/assets/images/features/monitor-smartphone.svg' | relative_url }}" alt=""></span><div><h3>iOS Simulator</h3><p>Use the same map and movement controls with devices running in iOS Simulator.</p></div></article>
+    <article><span class="feature-icon" aria-hidden="true"><img src="{{ '/assets/images/features/download.svg' | relative_url }}" alt=""></span><div><h3>Developer images</h3><p>Automatically look for and download the DeveloperDiskImage files required by the connected iOS version.</p></div></article>
+    <article><span class="feature-icon" aria-hidden="true"><img src="{{ '/assets/images/features/wifi.svg' | relative_url }}" alt=""></span><div><h3>Network devices</h3><p>Pair a physical device over USB first, then reconnect to it over Wi-Fi.</p></div></article>
+    <article><span class="feature-icon" aria-hidden="true"><img src="{{ '/assets/images/features/map-pin.svg' | relative_url }}" alt=""></span><div><h3>Set a location</h3><p>Long-click anywhere on the map to make the device report that coordinate.</p></div></article>
+    <article><span class="feature-icon" aria-hidden="true"><img src="{{ '/assets/images/features/search.svg' | relative_url }}" alt=""></span><div><h3>Location search</h3><p>Find a place or address and move the map directly to it.</p></div></article>
+    <article><span class="feature-icon" aria-hidden="true"><img src="{{ '/assets/images/features/route.svg' | relative_url }}" alt=""></span><div><h3>Route navigation</h3><p>Calculate a route from the current location and simulate traveling along it.</p></div></article>
+    <article><span class="feature-icon" aria-hidden="true"><img src="{{ '/assets/images/features/gauge.svg' | relative_url }}" alt=""></span><div><h3>Movement speeds</h3><p>Use custom speeds or switch between the predefined Walk, Cycle, and Drive modes.</p></div></article>
+    <article><span class="feature-icon" aria-hidden="true"><img src="{{ '/assets/images/features/keyboard.svg' | relative_url }}" alt=""></span><div><h3>Keyboard control</h3><p>Move and change direction with the arrow keys while testing.</p></div></article>
+    <article><span class="feature-icon" aria-hidden="true"><img src="{{ '/assets/images/features/moon.svg' | relative_url }}" alt=""></span><div><h3>Dark mode</h3><p>Follow the current macOS appearance or choose the app appearance yourself.</p></div></article>
   </div>
 </section>
 
