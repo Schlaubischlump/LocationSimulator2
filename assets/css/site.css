@@ -49,12 +49,15 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-actions { margin-top: 34px; }
 .simulator-downloads { flex-wrap: nowrap; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 13px; min-height: 53px; padding: 10px 20px; border: 1px solid transparent; border-radius: 15px; font-size: 14px; font-weight: 720; line-height: 1.1; text-decoration: none; transition: transform .2s, box-shadow .2s, background .2s; }
+.download-channel-button { width: 198px; }
 .button:hover { transform: translateY(-2px); }
 .button:active { transform: translateY(0) scale(.98); }
 .button small { display: block; margin-bottom: 2px; font-size: 9px; font-weight: 560; letter-spacing: .02em; }
+.button-label-bottom small { margin: 3px 0 0; }
 .app-store-symbol { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 25px; font-weight: 500; line-height: 1; }
 .button-icon { display: block; width: 27px; height: 27px; margin-left: -6px; border-radius: 8px; }
 .testflight-icon { box-shadow: 0 1px 3px rgba(0, 43, 96, .16); }
+.github-icon { border-radius: 0; }
 .spoofer-icon-cropped { clip-path: inset(10% round 25%); transform: scale(1.25); }
 .button-primary { color: white; background: var(--ink); box-shadow: 0 14px 24px rgba(11, 23, 39, .18); }
 .button-primary:hover { background: #1b2a40; box-shadow: 0 18px 30px rgba(11, 23, 39, .22); }
@@ -251,6 +254,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(50,119,246,.45);
   .button-testflight:hover { background: rgba(36,70,114,.82); }
   .button-spoofer { color: #edf4ff; background: rgba(14,29,48,.8); }
   .button-spoofer:hover { background: #132842; }
+  .github-icon { filter: invert(1); }
   .screenshot-badge { border-color: rgba(205,224,248,.16); background: rgba(15,30,49,.9); color: #99a9bd; }
   .screenshot-badge strong { color: #eef5ff; }
   .trust-strip { background: rgba(10,22,38,.6); }

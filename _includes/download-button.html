@@ -1,19 +1,19 @@
 {% assign download = include.download %}
 {% if download.visible and download.url != empty %}
   {% if download.kind == "app_store" %}
-  <a class="button button-primary" href="{{ download.url }}" aria-label="{{ download.label }}">
+  <a class="button download-channel-button button-primary" href="{{ download.url }}" aria-label="{{ download.label }}">
     <span class="app-store-symbol" aria-hidden="true"></span>
     <span><small>LocationSimulator</small>App Store</span>
   </a>
   {% elsif download.kind == "testflight" %}
-  <a class="button button-testflight" href="{{ download.url }}" aria-label="{{ download.label }}">
+  <a class="button download-channel-button button-testflight" href="{{ download.url }}" aria-label="{{ download.label }}">
     <img class="button-icon testflight-icon" src="{{ '/assets/images/testflight-icon.png' | relative_url }}" alt="">
     <span><small>LocationSimulator</small>TestFlight</span>
   </a>
   {% elsif download.kind == "spoofer" %}
-  <a class="button button-spoofer" href="{{ download.url }}" aria-label="{{ download.label }}">
-    <img class="button-icon spoofer-icon-cropped" src="{{ '/assets/images/location-spoofer-icon.png' | relative_url }}" alt="">
-    <span><small>Download for macOS</small>LocationSpoofer</span>
+  <a class="button download-channel-button button-spoofer" href="{{ download.url }}" aria-label="{{ download.label }}">
+    <img class="button-icon github-icon" src="{{ '/assets/images/github-mark.png' | relative_url }}" alt="">
+    <span class="button-label-bottom">LocationSpoofer<small>GitHub</small></span>
   </a>
   {% endif %}
 {% endif %}
