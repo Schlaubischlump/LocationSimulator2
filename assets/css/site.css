@@ -52,8 +52,10 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .download-channel-button { width: 198px; }
 .button:hover { transform: translateY(-2px); }
 .button:active { transform: translateY(0) scale(.98); }
-.button small { display: block; margin-bottom: 2px; font-size: 9px; font-weight: 560; letter-spacing: .02em; }
-.button-label-bottom small { margin: 3px 0 0; }
+.download-channel-copy { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.1; }
+.download-channel-title { display: block; font-size: 14px; font-weight: 720; white-space: nowrap; }
+.download-channel-copy small { display: block; margin-bottom: 2px; font-size: 9px; font-weight: 560; letter-spacing: .02em; }
+.download-channel-copy-bottom small { margin: 3px 0 0; }
 .app-store-symbol { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 25px; font-weight: 500; line-height: 1; }
 .button-icon { display: block; width: 27px; height: 27px; margin-left: -6px; border-radius: 8px; }
 .testflight-icon { box-shadow: 0 1px 3px rgba(0, 43, 96, .16); }
@@ -79,10 +81,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .comparison-handle { position: absolute; top: 50%; left: 50%; display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid rgba(10,31,58,.16); border-radius: 50%; color: #18304f; background: rgba(255,255,255,.94); box-shadow: 0 8px 24px rgba(8,24,45,.25); font-size: 16px; font-weight: 760; transform: translate(-50%, -50%); backdrop-filter: blur(12px); }
 .comparison-range:focus-visible + .comparison-divider .comparison-handle { outline: 3px solid rgba(50,119,246,.62); outline-offset: 4px; }
 .screenshot-glow { position: absolute; inset: -16% -10%; z-index: 0; border-radius: 50%; background: radial-gradient(circle, rgba(72,157,255,.24), rgba(65,207,173,.08) 48%, transparent 72%); filter: blur(18px); }
-.screenshot-badge { position: absolute; z-index: 4; right: -12px; bottom: -26px; display: flex; align-items: center; gap: 10px; padding: 9px 14px 9px 9px; border: 1px solid rgba(255,255,255,.75); border-radius: 17px; background: rgba(255,255,255,.88); box-shadow: 0 16px 36px rgba(27,61,105,.18); color: #647185; font-size: 9px; backdrop-filter: blur(16px); }
-.screenshot-badge img { width: 34px; height: 34px; border-radius: 9px; }
-.screenshot-badge span { display: grid; gap: 2px; }
-.screenshot-badge strong { color: #15243a; font-size: 10px; }
 
 .trust-strip { display: flex; justify-content: center; align-items: center; gap: 30px; padding: 19px 24px; border-block: 1px solid var(--line); color: #667386; background: rgba(255,255,255,.45); font-size: 11px; font-weight: 720; letter-spacing: .06em; text-transform: uppercase; }
 .trust-strip i { width: 4px; height: 4px; border-radius: 50%; background: var(--blue); }
@@ -213,7 +211,6 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(50,119,246,.45);
   .simulator-downloads { display: grid; grid-template-columns: 1fr 1fr; }
   .hero-actions > .button, .simulator-downloads .button { width: 100%; }
   .screenshot-picture { transform: none; }
-  .screenshot-badge { right: 8px; }
   .trust-strip { flex-wrap: wrap; gap: 12px 16px; padding-inline: 14px; text-align: center; }
   .trust-strip span, .trust-strip i { flex: 0 0 auto; }
   .section { padding-block: 90px; }
@@ -261,8 +258,6 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(50,119,246,.45);
   .button-spoofer { color: #edf4ff; background: rgba(14,29,48,.8); }
   .button-spoofer:hover { background: #132842; }
   .github-icon { filter: invert(1); }
-  .screenshot-badge { border-color: rgba(205,224,248,.16); background: rgba(15,30,49,.9); color: #99a9bd; }
-  .screenshot-badge strong { color: #eef5ff; }
   .trust-strip { background: rgba(10,22,38,.6); }
   .pair-flow article, .download-card, .empty-downloads, .setup-notes article, .steps li, .release-column { background: linear-gradient(145deg, rgba(17,33,54,.96), rgba(9,22,38,.88)); }
   .automation-section { border-block: 1px solid var(--line); }

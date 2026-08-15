@@ -30,10 +30,6 @@ description: Spoof locations on physical iPhones and iPads or devices running in
       <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Compare light and dark mode screenshots" aria-valuetext="50% light, 50% dark">
       <span class="comparison-divider" aria-hidden="true"><span class="comparison-handle">↔</span></span>
     </div>
-    <div class="screenshot-badge">
-      <img src="{{ '/assets/images/app-icon.png' | relative_url }}" alt="">
-      <span><strong>LocationSimulator</strong>macOS app</span>
-    </div>
   </div>
 </section>
 
