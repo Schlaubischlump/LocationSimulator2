@@ -13,7 +13,10 @@ description: Spoof locations on physical iPhones and iPads or devices running in
     {% assign visible_downloads = site.data.downloads | where: "visible", true %}
     {% if visible_downloads.size > 0 %}
     <div class="hero-actions">
-      {% for download in visible_downloads %}{% include download-button.html download=download %}{% endfor %}
+      <div class="simulator-downloads">
+        {% for download in visible_downloads %}{% if download.product_key == "locationsimulator" %}{% include download-button.html download=download %}{% endif %}{% endfor %}
+      </div>
+      {% for download in visible_downloads %}{% if download.product_key == "locationspoofer" %}{% include download-button.html download=download %}{% endif %}{% endfor %}
     </div>
     {% endif %}
     <p class="hero-note">Requires LocationSpoofer, installed separately on your Mac.</p>

@@ -15,19 +15,35 @@ permalink: /downloads/
 <section class="shell download-stack">
   {% assign visible_downloads = site.data.downloads | where: "visible", true %}
   {% if visible_downloads.size > 0 %}
-  {% for download in visible_downloads %}
-  {% assign product = site.data.products[download.product_key] %}
-  <article class="download-card" id="{{ download.id }}">
-    <img class="download-app-icon{% if download.kind == 'spoofer' %} spoofer-icon-cropped{% endif %}" src="{{ download.icon | relative_url }}" width="152" height="152" alt="{{ product.name }} app icon">
+  {% assign simulator_downloads = visible_downloads | where: "product_key", "locationsimulator" %}
+  {% if simulator_downloads.size > 0 %}
+  <article class="download-card" id="locationsimulator">
+    <img class="download-app-icon" src="{{ '/assets/images/app-icon.png' | relative_url }}" width="152" height="152" alt="LocationSimulator app icon">
     <div class="download-copy">
-      <p class="eyebrow">{{ download.eyebrow }}</p>
-      <h2>{{ download.label }}</h2>
-      <p>{{ download.description }}</p>
-      {% include download-button.html download=download %}
+      <p class="eyebrow">macOS app</p>
+      <h2>LocationSimulator</h2>
+      <p>{{ site.data.products.locationsimulator.description }}</p>
+      <div class="download-actions">
+        {% for download in simulator_downloads %}{% include download-button.html download=download %}{% endfor %}
+      </div>
     </div>
-    <div class="download-meta">{% for item in download.meta %}<span>{{ item }}</span>{% endfor %}</div>
   </article>
-  {% endfor %}
+  {% endif %}
+
+  {% assign spoofer_downloads = visible_downloads | where: "product_key", "locationspoofer" %}
+  {% if spoofer_downloads.size > 0 %}
+  <article class="download-card" id="locationspoofer">
+    <img class="download-app-icon spoofer-icon-cropped" src="{{ '/assets/images/location-spoofer-icon.png' | relative_url }}" width="152" height="152" alt="LocationSpoofer app icon">
+    <div class="download-copy">
+      <p class="eyebrow">Required helper app</p>
+      <h2>LocationSpoofer</h2>
+      <p>{{ site.data.products.locationspoofer.description }}</p>
+      <div class="download-actions">
+        {% for download in spoofer_downloads %}{% include download-button.html download=download %}{% endfor %}
+      </div>
+    </div>
+  </article>
+  {% endif %}
   {% else %}
   <div class="empty-downloads"><span aria-hidden="true">—</span><h2>No downloads are currently available.</h2><p>Check back later for the next release.</p></div>
   {% endif %}

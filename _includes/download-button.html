@@ -7,13 +7,13 @@
   </a>
   {% elsif download.kind == "testflight" %}
   <a class="button button-testflight" href="{{ download.url }}" aria-label="{{ download.label }}">
-    <img class="button-icon" src="{{ '/assets/images/app-icon.png' | relative_url }}" alt="">
+    <img class="button-icon testflight-icon" src="{{ '/assets/images/testflight-icon.png' | relative_url }}" alt="">
     <span><small>LocationSimulator</small>TestFlight</span>
   </a>
   {% elsif download.kind == "spoofer" %}
-  <a class="button button-secondary" href="{{ download.url }}" aria-label="{{ download.label }}">
+  <a class="button button-spoofer" href="{{ download.url }}" aria-label="{{ download.label }}">
     <img class="button-icon spoofer-icon-cropped" src="{{ '/assets/images/location-spoofer-icon.png' | relative_url }}" alt="">
-    <span>LocationSpoofer</span><span aria-hidden="true">↓</span>
+    <span><small>Download for macOS</small>LocationSpoofer</span>
   </a>
   {% endif %}
 {% endif %}
