@@ -1,7 +1,7 @@
 title: LocationSimulator2
 description: Spoof locations on physical iPhones and iPads or devices running in iOS Simulator.
-url: https://schlaubischlump.github.io
-baseurl: /LocationSimulator2
+url: https://locationsimulator.net
+baseurl: ""
 
 markdown: kramdown
 permalink: pretty
