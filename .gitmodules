@@ -1,0 +1,3 @@
+[submodule "LocationSimulator2-Localization"]
+	path = LocationSimulator2-Localization
+	url = https://github.com/Schlaubischlump/LocationSimulator2-Localization.git
