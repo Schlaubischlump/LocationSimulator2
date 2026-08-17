@@ -17,10 +17,10 @@ Steps to reproduce the behavior:
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
+**(Optional) Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
+**(Optional) Screenshots**
 If applicable, add screenshots to help explain your problem.
 
 **LocationSimulator**
@@ -31,9 +31,9 @@ If applicable, add screenshots to help explain your problem.
  - OS: [e.g. macOS26]
  - Version [e.g. 1.0.1]
 
-**Spoofed Device:**
+**(Optional) Spoofed Device:**
  - Device: [e.g. iPhone17 / Simulator / -]
  - OS: [e.g. iOS26]
 
-**Additional context**
+**(Optional) Additional context**
 Add any other context about the problem here.
