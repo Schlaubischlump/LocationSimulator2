@@ -4,7 +4,7 @@
 
 - id: locationsimulator-app-store
   label: LocationSimulator App Store
-  visible: true
+  visible: false
   url: https://apps.apple.com/app/id6800851055
   kind: app_store
   product_key: locationsimulator
@@ -19,7 +19,7 @@
   label: LocationSimulator TestFlight
   visible: true
   # Temporary preview URL. Replace this with the public TestFlight invitation.
-  url: https://example.com/location-simulator-testflight
+  url: https://testflight.apple.com/join/uK86x33f
   kind: testflight
   product_key: locationsimulator
   eyebrow: TestFlight beta
