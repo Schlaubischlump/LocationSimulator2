@@ -9,7 +9,7 @@
   kind: app_store
   product_key: locationsimulator
   eyebrow: App Store
-  description: Install the public release of LocationSimulator from the Mac App Store.
+  description: Install the public release of LocationSimulator for iOS, iPadOS, and Mac from the App Store.
   icon: /assets/images/app-icon.png
   meta:
     - Public release

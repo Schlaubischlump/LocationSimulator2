@@ -17,7 +17,7 @@ permalink: /changelog/
   {% assign spoofer_releases = site.releases | where: "product", "locationspoofer" | sort: "date" | reverse %}
 
   <div class="release-column">
-    <div class="release-column-header"><span class="status-dot blue"></span><div><p class="eyebrow">macOS app</p><h2>LocationSimulator</h2></div></div>
+    <div class="release-column-header"><span class="status-dot blue"></span><div><p class="eyebrow">iOS, iPadOS, and Mac</p><h2>LocationSimulator</h2></div></div>
     {% if simulator_releases.size > 0 %}
       {% for release in simulator_releases %}
       <article class="release-entry">

@@ -2,14 +2,14 @@
 layout: default
 title: Downloads
 nav: downloads
-description: Download LocationSimulator from the App Store and the latest LocationSpoofer release for macOS.
+description: Download LocationSimulator for iOS, iPadOS, and Mac from the App Store, and the latest LocationSpoofer release for macOS.
 permalink: /downloads/
 ---
 
 <section class="page-hero shell narrow">
   <p class="eyebrow">Both apps are required</p>
   <h1>Install both apps.</h1>
-  <p>LocationSimulator provides the map and route controls. LocationSpoofer runs on your Mac and communicates with physical devices and iOS Simulator.</p>
+  <p>LocationSimulator runs on iOS, iPadOS, and Mac and provides the map and route controls. LocationSpoofer still runs on a Mac and is the helper that talks to physical devices and iOS Simulator.</p>
 </section>
 
 <section class="shell download-stack">
@@ -20,7 +20,7 @@ permalink: /downloads/
   <article class="download-card" id="locationsimulator">
     <img class="download-app-icon" src="{{ '/assets/images/app-icon.png' | relative_url }}" width="152" height="152" alt="LocationSimulator app icon">
     <div class="download-copy">
-      <p class="eyebrow">macOS app</p>
+      <p class="eyebrow">{{ site.data.products.locationsimulator.eyebrow }}</p>
       <h2>LocationSimulator</h2>
       <p>{{ site.data.products.locationsimulator.description }}</p>
       <div class="download-actions">

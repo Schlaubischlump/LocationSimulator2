@@ -5,8 +5,8 @@ site:
 
 locationsimulator:
   name: LocationSimulator
-  eyebrow: macOS app
-  description: Choose locations and routes for physical iPhones and iPads or devices running in iOS Simulator.
+  eyebrow: iOS, iPadOS, and Mac
+  description: Choose locations and routes for physical iPhones and iPads or devices running in iOS Simulator. Connects to LocationSpoofer, which must be running on a Mac.
   changelog_label: LocationSimulator
 
 locationspoofer:

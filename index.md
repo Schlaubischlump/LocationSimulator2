@@ -7,7 +7,7 @@ description: Spoof locations on physical iPhones and iPads or devices running in
 
 <section class="hero shell">
   <div class="hero-copy">
-    <p class="eyebrow">LocationSimulator for macOS</p>
+    <p class="eyebrow">LocationSimulator for iOS</p>
     <h1>Spoof locations.<br><span>Test your app.</span></h1>
     <p class="hero-lede">Set a location, move manually, or follow a route on a physical iPhone, iPad, or iOS Simulator.</p>
     {% assign visible_downloads = site.data.downloads | where: "visible", true %}
@@ -19,7 +19,7 @@ description: Spoof locations on physical iPhones and iPads or devices running in
       {% for download in visible_downloads %}{% if download.product_key == "locationspoofer" %}{% include download-button.html download=download %}{% endif %}{% endfor %}
     </div>
     {% endif %}
-    <p class="hero-note">Requires LocationSpoofer, installed separately on your Mac.</p>
+    <p class="hero-note">Runs on iOS, iPadOS, and Mac. Requires LocationSpoofer, running on a Mac, to reach physical devices and iOS Simulator.</p>
   </div>
 
   <div class="product-stage">
