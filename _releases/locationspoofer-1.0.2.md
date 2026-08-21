@@ -5,8 +5,6 @@ date: 2026-08-21
 download_url: https://github.com/Schlaubischlump/LocationSpoofer-App/releases/latest/download/LocationSpoofer.zip
 ---
 
-- First standalone LocationSpoofer helper release for Mac.
-- Connects LocationSimulator to physical iPhones and iPads and to devices running in iOS Simulator.
-- Supports USB pairing and subsequent Wi-Fi device connections.
+- Kept the existing network pairing code usable when rotating to a new code fails.
 - Ensures routes calculated through AppleScript include the requested starting point and destination.
-- Includes automatic update checks and a manual **Check for Updates…** action powered by Sparkle.
+- Added a donation link.
