@@ -31,7 +31,7 @@ permalink: /changelog/
   </div>
 
   <div class="release-column">
-    <div class="release-column-header"><span class="status-dot green"></span><div><p class="eyebrow">Required helper</p><h2>LocationSpoofer</h2></div></div>
+    <div class="release-column-header"><span class="status-dot green"></span><div><p class="eyebrow">Required helper · macOS only</p><h2>LocationSpoofer</h2></div></div>
     {% if spoofer_releases.size > 0 %}
       {% for release in spoofer_releases %}
       <article class="release-entry">
