@@ -2,7 +2,7 @@
 product: locationspoofer
 version: "1.0.2"
 date: 2026-08-21
-download_url: https://github.com/Schlaubischlump/LocationSpoofer-App/releases/latest/download/LocationSpoofer.zip
+download_url: https://github.com/Schlaubischlump/LocationSpoofer-App/releases/download/v1.0.2/LocationSpoofer.zip
 ---
 
 - Kept the existing network pairing code usable when rotating to a new code fails.
