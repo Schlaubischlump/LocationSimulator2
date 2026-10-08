@@ -7,3 +7,4 @@ date: 2026-09-22
 - Fix Done button for Settings popup is missing
 - Added Off, Loop, and Autoreverse options for repeating navigation routes.
 - Fixed “Open AppleScript” in Help on macOS 27.
+- Fixed toolbar overflow actions for Repeat, Movement Type, and Movement Speed remaining selectable when their controls were disabled.
