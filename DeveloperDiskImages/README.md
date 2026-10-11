@@ -13,13 +13,8 @@ used by LocationSimulator. Each platform has three entry shapes:
 
 The backend resolves the preferred format from device metadata and RSD service
 availability. iOS 17–26 prefer personalized images. iOS 27 and later
-prefer Cryptex when available; otherwise, they use personalized images. Other platforms retain their current default.
-
-The platform transition versions are not catalog data. They are defined once in
-`ApplePlatformCompatibility` and cover iOS, watchOS, tvOS, and visionOS. Catalog
-decoding rejects a legacy entry at or beyond its platform's personalized-image
-transition, preventing the settings UI and cache from ever representing a
-versioned personalized image.
+prefer Cryptex when available.
+Note that Cryptex is technically available starting at 17.3. But you know, never fix a running system.
 
 Catalog versions may use either `X.Y` or `X.Y.Z`. When a device reports an
 `X.Y.Z` version and no exact entry is present, LocationSimulator falls back to
@@ -60,10 +55,3 @@ from the production GitHub URL in `Config` when it is more than two hours old.
 Only a fully decoded, supported catalog atomically replaces the cached JSON. A
 release or test build can set `DEVELOPER_IMAGE_CATALOG_URL` to fetch another
 complete copy of the same schema.
-
-If a persisted or hosted schema-1 catalog predates Cryptex support, the bundled
-Cryptex entry supplements it. The original personalized cache remains valid and
-is never treated as a Cryptex payload. All formats use the same cache completeness
-check: every required file must exist and have a nonzero size. The Cryptex build
-identity and available SHA-384 component digests are validated when the files are
-loaded for installation or transfer to LocationSpoofer.
