@@ -486,6 +486,23 @@
         "buildManifestURLs": [
           "https://github.com/doronz88/DeveloperDiskImage/raw/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/BuildManifest.plist"
         ]
+      },
+      "cryptex": {
+        "imageURLs": [
+          "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/PersonalizedImages/Xcode_iOS_DDI_Cryptex/Image.dmg"
+        ],
+        "trustCacheURLs": [
+          "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/PersonalizedImages/Xcode_iOS_DDI_Cryptex/Image.dmg.trustcache"
+        ],
+        "buildManifestURLs": [
+          "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/PersonalizedImages/Xcode_iOS_DDI_Cryptex/BuildManifest.plist"
+        ],
+        "infoURLs": [
+          "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/PersonalizedImages/Xcode_iOS_DDI_Cryptex/Image.dmg.cryptex_info"
+        ],
+        "rootHashURLs": [
+          "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/main/PersonalizedImages/Xcode_iOS_DDI_Cryptex/Image.dmg.root_hash"
+        ]
       }
     },
     "watchos": {
