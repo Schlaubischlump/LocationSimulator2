@@ -1,13 +1,19 @@
 # Developer disk image catalog
 
 This schema-version-1 catalog is the only source of developer-image payload URLs
-used by LocationSimulator. Each platform has two deliberately different entry
-shapes:
+used by LocationSimulator. Each platform has three entry shapes:
 
 - `legacyVersions` maps an exact `X.Y` or `X.Y.Z` operating-system version to a
   legacy image and signature.
 - `personalized` is one optional, unversioned image, trust cache, and build
-  manifest shared by every personalized-image OS release on that platform.
+  manifest for the mobile image mounter.
+- `cryptex` is an optional, separate image, trust cache, build manifest, Cryptex
+  info plist, and volume root hash for installation through cryptexd. Its payload
+  adds `infoURLs` and `rootHashURLs`. Older schema-1 readers ignore this entry.
+
+The backend resolves the preferred format from device metadata and RSD service
+availability. iOS 17–26 prefer personalized images. iOS 27 and later
+prefer Cryptex when available; otherwise, they use personalized images. Other platforms retain their current default.
 
 The platform transition versions are not catalog data. They are defined once in
 `ApplePlatformCompatibility` and cover iOS, watchOS, tvOS, and visionOS. Catalog
@@ -42,6 +48,7 @@ DeveloperImages/
   ios/
     16.7/
     personalized/
+    cryptex/
   watchos/
     9.0/
     personalized/
@@ -53,3 +60,10 @@ from the production GitHub URL in `Config` when it is more than two hours old.
 Only a fully decoded, supported catalog atomically replaces the cached JSON. A
 release or test build can set `DEVELOPER_IMAGE_CATALOG_URL` to fetch another
 complete copy of the same schema.
+
+If a persisted or hosted schema-1 catalog predates Cryptex support, the bundled
+Cryptex entry supplements it. The original personalized cache remains valid and
+is never treated as a Cryptex payload. All formats use the same cache completeness
+check: every required file must exist and have a nonzero size. The Cryptex build
+identity and available SHA-384 component digests are validated when the files are
+loaded for installation or transfer to LocationSpoofer.
